@@ -41,6 +41,10 @@ body{
   text-align: justify;
   margin: 40px 0 15px 30px;
 }
+.communityClass p{
+  font-weight: 700;
+  color: hsl(218, 22%, 67%);
+}
 .subscriptionClass{
   display: flex;
   flex-direction: column;
@@ -63,8 +67,8 @@ span{
 .rightContainer{
   grid-column: 2/3;
   grid-row: 2/3;
-  background-color: lightgreen;
-  border: 1px solid lightgreen;
+  background-color: hsl(179, 62%, 43%);
+  border: 1px solid hsl(179, 62%, 43%);
   border-bottom-right-radius: 25px;
 }
 .infoClass{
@@ -94,9 +98,22 @@ span{
     flex-direction: column;
     width: 350px;
     height: 800px;
+    font-weight: 400;
   }
+
   .leftContainer {
     border-bottom-left-radius: 0px;
+  }
+  .rightContainer{
+    border-bottom-left-radius: 25px;
+  }
+  .communityClass p{
+    font-weight: 400;
+    margin-right: 20px;
+  }
+  .myButton {
+    width: 250px;
+    text-align: center;
   }
 }
 
